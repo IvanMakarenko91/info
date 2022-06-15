@@ -21,3 +21,22 @@ navbar {
   background-color: rgb(161, 157, 157);
   padding: 3px;
 }
+
+@media screen and (max-width:359px) {
+  navbar {
+    flex-direction: column;
+    justify-content: start;
+    min-height: 190px;
+  }
+  .separation:not(:nth-child(4)) {
+    margin-right: 0px;
+  }
+  .separation {
+    margin-top: 10px;
+  }
+}
+
+img {
+  width: 100%;
+  height: 400px;
+}
