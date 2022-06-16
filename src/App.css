@@ -9,7 +9,6 @@ navbar {
 
 .separation {
   color: rgb(223, 219, 219);
-  padding: 5px;
 }
 
 .separation:not(:nth-child(4)) {

@@ -1,6 +1,7 @@
 import './App.css';
 // import Ukraine from './components/Ukraine';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import { Outlet, Link } from "react-router-dom";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Link to="/inflation" className='separation'>Inflation</Link>
         </navbar>
       <Outlet />
+      <Footer />
     </div>
   );
 }

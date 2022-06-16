@@ -103,7 +103,7 @@ nav li {
      display: block;
    }
    nav ul {
-     position: fixed;
+     position: absolute;
      width: 50%;
      max-height: 60vh;
      background-color: bisque;
