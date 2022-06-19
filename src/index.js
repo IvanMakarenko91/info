@@ -8,12 +8,14 @@ import Canicule from "./routes/canicule";
 import Politique from "./routes/politique";
 import Ukraine from './routes/ukraine';
 import Inflation from './routes/inflation';
+import Accueil from './routes/accueil';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}>
+        <Route path="" element={<Accueil />} />
         <Route path="canicule" element={<Canicule />} />
         <Route path="politique" element={<Politique />} />
         <Route path="ukraine" element={<Ukraine />} />

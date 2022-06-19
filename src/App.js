@@ -9,6 +9,7 @@ function App() {
     <div>
         <Navbar />
         <navbar>
+          <NavLink to="" className='separation'><i class="fa-solid fa-house"></i></NavLink>
           <NavLink to="/politique" className='separation'>Politique</NavLink>
           <NavLink to="/canicule" className='separation'>Canicule</NavLink>
           <NavLink to="/ukraine" className='separation'>Ukraine</NavLink>
