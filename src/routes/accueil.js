@@ -46,7 +46,7 @@ const Accueil = () => {
           <Card.Body>
             <Card.Title>Guerre en Ukraine</Card.Title>
             <Card.Text>
-              33 Milliards d'euros d'aide venant des Etats-Unis à l'Ukraine. Quel moyen sont mis-à disposition pour defendre l'Ukraine ? 
+              33 Milliards d'euros d'aide venant des Etats-Unis à l'Ukraine. Quels moyens sont mis-à disposition pour defendre l'Ukraine ? 
             </Card.Text>
             <LoadingButton className='boutton'></LoadingButton>
           </Card.Body>
@@ -79,7 +79,7 @@ const Accueil = () => {
           <Card.Body>
             <Card.Title>Inflation</Card.Title>
             <Card.Text>
-              + 5,2% depuis le début de l'année. Comment les Français change leur habitudes ?
+              + 5,2% depuis le début de l'année. Comment les Français changent leur habitudes ?
             </Card.Text>
             <LoadingButton className='boutton'></LoadingButton>
           </Card.Body>

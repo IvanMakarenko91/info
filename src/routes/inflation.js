@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const inflation = () => {
   return (
     <>
-    <Infla>inflation : Quelles conséquences ?</Infla>
+    <Infla>Inflation : Quelles conséquences ?</Infla>
     <div className='container'>
       <div>Publié le 15/06/2022 11:26 <strong className='ml-3'> Mis à jour le 15/06/2022 16:22</strong></div>
       <img src='/img2.jpg' alt='' className='first-photo' />

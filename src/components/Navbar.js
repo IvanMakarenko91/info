@@ -35,7 +35,7 @@ const Navbar = () => {
         <ul className='show'>
         <li className="active"><a href="#">Actualité</a></li>
         <li><a href="#">Inscription </a></li>
-        <li><a href="#">Connexion</a></li>
+        <li><a href="#">Connexion <i class="fa-solid fa-circle-user"></i></a></li>
         <li className='interieur'><i class="fa-brands fa-facebook-f"></i></li>
         <li className='interieur'><i class="fa-brands fa-twitter"></i></li>
         <li className='interieur'><i class="fa-brands fa-instagram"></i></li>

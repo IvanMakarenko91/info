@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto+Condensed&family=Staatliches&display=swap');
 
 * {
   padding: 0;
@@ -13,11 +13,11 @@ body {
 nav {
   height: 80px;
   width: 100%;
-  background-color: rgba(226, 64, 42, 0.411);
+  background-color: rgb(196, 78, 62);
 }
 
 label.logo {
-  font-family: 'Lilita One', cursive;
+  font-family: 'Staatliches', cursive;
   font-size: 35px;
   font-weight: bold;
   color: white;
@@ -50,7 +50,7 @@ nav li {
 
  .active > a, a:hover {
    border: 1px solid white;
-   color: rgb(226, 34, 114);
+   color: gold;
    transition: 0.5s;
    text-decoration: none;
  }
